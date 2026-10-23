@@ -9,7 +9,7 @@ type LLMdata = {
     Speed: JsonRecord[];
 };
 
-type CombinedModel = {
+ export type CombinedModel = {
     rank: number | null;
     slug: string;
     canonicalModelKey: string;
